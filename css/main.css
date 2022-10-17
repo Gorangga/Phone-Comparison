@@ -90,7 +90,7 @@ h5 {
     position: relative;
     margin-left: 25px;
     padding: 35px 0;
-    color: #FFFFFF;
+    color: #091E3E;
     font-size: 18px;
     font-weight: 600;
     outline: none;
@@ -112,8 +112,8 @@ h5 {
 }
 
 .navbar-dark .navbar-toggler {
-    color: var(--primary) !important;
-    border-color: var(--primary) !important;
+    color: #000;
+    border-color: #000;
 }
 
 @media (max-width: 991.98px) {
@@ -136,7 +136,7 @@ h5 {
 
 @media (min-width: 992px) {
     .navbar-dark {
-        position: absolute;
+        /* position: absolute; */
         width: 100%;
         top: 0;
         left: 0;
@@ -325,7 +325,27 @@ h5 {
     background-color: #efefef;
 }
 
+.bg-dark {
+    background-color: #091E3E !important
+}
 
+.btn-nav {
+    color: #091E3E;
+    border-color: #091E3E;
+}
+
+.btn-nav:hover {
+    background-color: #06A3DA;
+    color: #FFFFFF;
+}
+
+@media (max-width: 991.98px) {
+    .btn-nav {
+        color: rgb(255, 255, 255);
+        border-color: #06A3DA;
+        background-color: #06A3DA;
+    }
+}
 
 @-webkit-keyframes section-title-run {
     0% {left: 0; } 50% { left : 145px; } 100% { left: 0; }
