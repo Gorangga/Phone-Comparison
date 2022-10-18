@@ -347,6 +347,22 @@ h5 {
     }
 }
 
+.text-light {
+    text-decoration: none;
+}
+
+.designer {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #5E6282;
+    text-decoration: none;
+}
+
+.designer:hover {
+    color: #fff;
+    transition: ease-in;
+}
+
 @-webkit-keyframes section-title-run {
     0% {left: 0; } 50% { left : 145px; } 100% { left: 0; }
 }
