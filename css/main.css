@@ -1,5 +1,5 @@
 :root {
-    --primary: #06A3DA;
+    --primary: #0d6efd;
     --secondary: #34AD54;
     --light: #EEF9FF;
     --dark: #091E3E;
@@ -335,15 +335,15 @@ h5 {
 }
 
 .btn-nav:hover {
-    background-color: #06A3DA;
+    background-color: #0d6efd;
     color: #FFFFFF;
 }
 
 @media (max-width: 991.98px) {
     .btn-nav {
         color: rgb(255, 255, 255);
-        border-color: #06A3DA;
-        background-color: #06A3DA;
+        border-color: #0d6efd;
+        background-color: #0d6efd;
     }
 }
 
